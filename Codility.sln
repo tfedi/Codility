@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOccurrencesInArray", "Od
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermMissingElem", "PermMissingElem\PermMissingElem.csproj", "{FC37E609-C093-4E59-8925-FB06C5AB03FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogJmp", "FrogJmp\FrogJmp.csproj", "{E3A3BB27-3D8B-4D83-A856-3C332B72C40F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{FC37E609-C093-4E59-8925-FB06C5AB03FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC37E609-C093-4E59-8925-FB06C5AB03FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC37E609-C093-4E59-8925-FB06C5AB03FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A3BB27-3D8B-4D83-A856-3C332B72C40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A3BB27-3D8B-4D83-A856-3C332B72C40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A3BB27-3D8B-4D83-A856-3C332B72C40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A3BB27-3D8B-4D83-A856-3C332B72C40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
