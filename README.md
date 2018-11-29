@@ -8,3 +8,4 @@
 5. FrogJmp (100 %)
 6. TapeEquilibrium (100 %)
 7. PermCheck (100 %)
+8. FrogRiverOne (100 %)
