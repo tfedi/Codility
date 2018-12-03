@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermCheck", "PermCheck\Perm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogRiverOne", "FrogRiverOne\FrogRiverOne.csproj", "{EDBDD45E-0229-4E90-B47D-C41BD429D8D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxCounter", "MaxCounter\MaxCounter.csproj", "{BA8CE02D-CA3D-44FF-83F3-812B2AB4A1DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{EDBDD45E-0229-4E90-B47D-C41BD429D8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBDD45E-0229-4E90-B47D-C41BD429D8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBDD45E-0229-4E90-B47D-C41BD429D8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8CE02D-CA3D-44FF-83F3-812B2AB4A1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8CE02D-CA3D-44FF-83F3-812B2AB4A1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8CE02D-CA3D-44FF-83F3-812B2AB4A1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8CE02D-CA3D-44FF-83F3-812B2AB4A1DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

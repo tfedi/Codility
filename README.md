@@ -9,3 +9,4 @@
 6. TapeEquilibrium (100 %)
 7. PermCheck (100 %)
 8. FrogRiverOne (100 %)
+9. MaxCounter (77 %)
