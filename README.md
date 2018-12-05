@@ -9,7 +9,7 @@
 6.  TapeEquilibrium (100 %)
 7.  PermCheck (100 %)
 8.  FrogRiverOne (100 %)
-9.  MaxCounter (77 %)
+9.  MaxCounter (100 %)
 10. MissingInteger (100 %) - Demo Test
 11. Codility Exam (65 %)
 	a. Score By Group of Task (100% - N/A)
