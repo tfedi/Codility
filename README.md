@@ -15,4 +15,7 @@
 	a. Score By Group of Task (100% - N/A)
 	b. Remove Pattern (100% - 66%)
 	c. Min Secuence to Number (16% - 0%)
-12. PassingCars
+12. PassingCars (100%)
+13. GenomicRangeQuery
+14. Screening Exam (100%)
+
