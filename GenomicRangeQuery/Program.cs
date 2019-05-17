@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GenomicRangeQuery
+﻿namespace GenomicRangeQuery
 {
-    using System.Xml.Schema;
+    using System;
+    using System.Collections.Generic;
 
     class Program
     {
         static void Main(string[] args)
         {
-            var solution = new Solution();
+            var solution = new SolutionGenomicRangeQuery();
 
             solution.solution("CAGCCTA", new[] {2, 5, 0}, new[] {4, 5, 6});
         }
     }
 
-    class Solution
+    public class SolutionGenomicRangeQuery
     {
         public int[] solution(string S, int[] P, int[] Q)
         {
