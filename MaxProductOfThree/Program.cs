@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace MaxProductOfThree
+﻿namespace MaxProductOfThree
 {
-    using System.Collections.Generic;
+    using System;
     using System.Linq;
 
     class Program
@@ -16,39 +14,23 @@ namespace MaxProductOfThree
         }
     }
 
-    class Solution
+    public class Solution
     {
         public int solution(int[] A)
         {
-            if (A.Length < 4)
-            {
-                var product = A[0];
-                for (int i = 1; i < A.Length; i++)
-                {
-                    product *= A[i];
-                }
+            if (A.Length == 1)
+                return A[0];
+            
+            if(A.Length == 2)
+                return A[0] * A[1];
 
-                return product;
-            }
+            var sortedList = A.ToList().OrderByDescending(x => x).ToList();
 
-            var maxProduct = A[0] * A[1] * A[2];
+            var multiplicationPositive = sortedList[0] * sortedList[1] * sortedList[2];
+            var multiplicationNegative =
+                sortedList[0] * sortedList[sortedList.Count - 1] * sortedList[sortedList.Count - 2];
 
-            for (int i = 1; i < A.Length; i++)
-            {
-                var product = 0;
-                for (int j = i+1; j < A.Length; j++)
-                {
-                    for (int k = j+1; k < A.Length; k++)
-                    {
-                        product = A[i] * A[j] * A[k];
-
-                        if (product > maxProduct)
-                            maxProduct = product;
-                    }
-                }
-            }
-
-            return maxProduct;
+            return multiplicationPositive > multiplicationNegative ? multiplicationPositive : multiplicationNegative;
         }
     }
 }
