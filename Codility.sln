@@ -42,7 +42,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6162B491
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenomicRangeQueryTest", "GenomicRangeQueryTest\GenomicRangeQueryTest.csproj", "{FDE706D9-FCC3-499C-8BDD-D03F198155B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Distinct\Distinct.csproj", "{7925D322-843B-4A85-950A-DF2F39627639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distinct", "Distinct\Distinct.csproj", "{7925D322-843B-4A85-950A-DF2F39627639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductOfThree", "MaxProductOfThree\MaxProductOfThree.csproj", "{94C1655D-99C2-4869-8CC4-DB0EA40C06CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -118,6 +120,10 @@ Global
 		{7925D322-843B-4A85-950A-DF2F39627639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7925D322-843B-4A85-950A-DF2F39627639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7925D322-843B-4A85-950A-DF2F39627639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C1655D-99C2-4869-8CC4-DB0EA40C06CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C1655D-99C2-4869-8CC4-DB0EA40C06CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C1655D-99C2-4869-8CC4-DB0EA40C06CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C1655D-99C2-4869-8CC4-DB0EA40C06CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
