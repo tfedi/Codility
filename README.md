@@ -20,3 +20,4 @@
 14. Screening Exam (100 %)
 15. MinAvgTwoSlice
 16. Distinct (100 %)
+17. MaxProductOfThree (100%)
