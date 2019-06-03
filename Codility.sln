@@ -44,9 +44,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenomicRangeQueryTest", "Ge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distinct", "Distinct\Distinct.csproj", "{7925D322-843B-4A85-950A-DF2F39627639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductOfThree", "MaxProductOfThree\MaxProductOfThree.csproj", "{94C1655D-99C2-4869-8CC4-DB0EA40C06CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxProductOfThree", "MaxProductOfThree\MaxProductOfThree.csproj", "{94C1655D-99C2-4869-8CC4-DB0EA40C06CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductOfThreeTest", "MaxProductOfThreeTest\MaxProductOfThreeTest.csproj", "{672A3172-432E-47E3-9EF3-2D9FFD98D840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxProductOfThreeTest", "MaxProductOfThreeTest\MaxProductOfThreeTest.csproj", "{672A3172-432E-47E3-9EF3-2D9FFD98D840}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triangle", "Triangle\Triangle.csproj", "{A6EA3819-EBD5-4563-8DB1-446819030805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleTest", "TriangleTest\TriangleTest.csproj", "{D6F47E64-DADD-4932-8B91-03AEF4D36791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,6 +134,14 @@ Global
 		{672A3172-432E-47E3-9EF3-2D9FFD98D840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672A3172-432E-47E3-9EF3-2D9FFD98D840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{672A3172-432E-47E3-9EF3-2D9FFD98D840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EA3819-EBD5-4563-8DB1-446819030805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EA3819-EBD5-4563-8DB1-446819030805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EA3819-EBD5-4563-8DB1-446819030805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EA3819-EBD5-4563-8DB1-446819030805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F47E64-DADD-4932-8B91-03AEF4D36791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F47E64-DADD-4932-8B91-03AEF4D36791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F47E64-DADD-4932-8B91-03AEF4D36791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F47E64-DADD-4932-8B91-03AEF4D36791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +149,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FDE706D9-FCC3-499C-8BDD-D03F198155B9} = {6162B491-95AB-4E4D-B609-2D5AC54AC9C1}
 		{672A3172-432E-47E3-9EF3-2D9FFD98D840} = {6162B491-95AB-4E4D-B609-2D5AC54AC9C1}
+		{D6F47E64-DADD-4932-8B91-03AEF4D36791} = {6162B491-95AB-4E4D-B609-2D5AC54AC9C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A791B54B-BA2E-4968-AA0C-EB69D24F537F}
