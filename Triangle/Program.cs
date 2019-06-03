@@ -50,6 +50,30 @@ namespace Triangle
     {
         public int solution(int[] A)
         {
+            if (A.Length < 3)
+                return 0;
+
+            for (int p = 0; p < A.Length; p++)
+            {
+                for (int q = p + 1; q < A.Length; q++)
+                {
+                    for (int r = q + 1; r < A.Length; r++)
+                    {
+                        long firstSum = A[p] + A[q];
+                        long secondSum = A[q] + A[r];
+                        long thirdSum = A[r] + A[p];
+
+                        if (firstSum > A[r]
+                            && secondSum > A[p]
+                            && thirdSum > A[q])
+                        {
+                            return 1;
+                        }
+
+                    }
+                }
+            }
+
             return 0;
         }
     }
