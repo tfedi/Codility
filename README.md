@@ -21,3 +21,4 @@
 15. MinAvgTwoSlice
 16. Distinct (100 %)
 17. MaxProductOfThree (100%)
+18. Triangle ()
