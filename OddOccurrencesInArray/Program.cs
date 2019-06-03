@@ -44,11 +44,46 @@ namespace OddOccurrencesInArray
     }
 
     class Solution {
-        public int solution(int[] A) {
-            return (from val in A
-                    group val by val
-                                    into g
-                    select new { Value = g.Key, Count = g.Count() }).ToArray().Where(x => x.Count % 2 != 0).First().Value;
+        public int solution(int[] A)
+        {
+            //return (from val in A
+            //        group val by val
+            //                        into g
+            //        select new { Value = g.Key, Count = g.Count() }).ToArray().Where(x => x.Count % 2 != 0).First().Value;
+            int extension = A.Length;
+            if (extension % 2 == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                int result = 0;
+                for (int i1 = 0; i1 < extension; i1++)
+                {
+                    int coincidencia = 0;
+
+                    for (int i2 = 0; i2 < extension; i2++)
+                    {
+                        if (A[i1] == A[i2])
+                        {
+                            coincidencia++;
+                        }
+
+                        if (coincidencia == 1 && i2 == extension - 1)
+                        {
+                            result = A[i1];
+                            break;
+                        }
+                    }
+
+                    if (result != 0)
+                    {
+                        break;
+                    }
+                }
+
+                return result;
+            }
         }
     }
 }
