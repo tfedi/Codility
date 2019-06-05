@@ -16,7 +16,7 @@
 	b. Remove Pattern (100 % - 66 %)
 	c. Min Secuence to Number (16 % - 0 %)
 12. PassingCars (100 %)
-13. GenomicRangeQuery(37 %)
+13. GenomicRangeQuery(100 %)
 14. Screening Exam (100 %)
 15. MinAvgTwoSlice
 16. Distinct (100 %)
